@@ -16,6 +16,11 @@ _start:
 	mov r1, #0x5b
 	str r1, [r5]
 	
+	mov r1, #0x4f
+	str r1, [r5]
+	
+	
+	
 	
 
 	
