@@ -25,4 +25,7 @@ _start:
 	mov r1, #0x6d
 	str r1, [r5]
 	
+	mov r1, #0x7d
+	str r1, [r5]
+	
 	
