@@ -5,7 +5,7 @@
 _start:
 	ldr r5, =SEVEN_SEG_ADDR
 	ldr r6, =led_patterns
-	mov r3, #5  //Max value of counter
+	mov r3, #10  //Max value of counter
 	mov r4, #0	//Loop counter
 	mov r2, #0	//Offset for array
 loop:
@@ -19,5 +19,6 @@ loop:
 
 .data
 .align 4
-led_patterns: .word 0b00111111, 0b00000110, 0b01011011, 0b01001111, 0b01100110
+led_patterns: .word 0b00111111, 0b00000110, 0b01011011, 0b01001111, 0b01100110, 0b01101101, 0b01111101, 0b00000111, 0b01111111, 0b01101111  
+
 	
